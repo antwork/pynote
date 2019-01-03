@@ -1,7 +1,7 @@
 ## \_\_str\_\_ vs \_\_repr\_\_
 
 ### 情况一
-> 两函数同时存在时,print()和str()方法使用__str__
+> 两函数同时存在时,print()和str()方法使用__str__    
 > repr()函数使用__repr__
 ```python
 class Test:
@@ -23,7 +23,7 @@ if __name__ == "__main__":
 ```
 
 ### 情况二
-> 仅存在__str__时, print()和str()方法使用__str__
+> 仅存在__str__时, print()和str()方法使用__str__    
 > repr()函数使用默认返回, 包括对象类及内存地址
 ```python
 class Test:
